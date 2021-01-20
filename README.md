@@ -12,7 +12,7 @@ Dataset: I used the MosMedData dataset to obtain lung CT scans that have signs o
 
 ### Pre-Processing
 
-I handled image proccessing and manipulation using the SciPy library which is popular for handling 3D images. The sample dataset used 80% for training and 20% for testing. I also used MatPlotLib to visualize a slice of a CT scan with signs of COVID-19. The image can be viewed below.
+I handled image proccessing and manipulation using the SciPy library which is popular for handling 3D images. The image was resized to the dimensions of 64 by 64 by 32 for proccessing and memory purposes. The sample dataset used 80% for training and 20% for testing. I also used MatPlotLib to visualize a slice of a CT scan with signs of COVID-19. The image can be viewed below.
 
 <p align="center">
   <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/img.png?raw=true" width="200" height="200"/>
@@ -20,7 +20,7 @@ I handled image proccessing and manipulation using the SciPy library which is po
 
 ## Results
 
-The model was tested and trained using Keras with a Tensorflow backend. I used 10 epochs and a batch size of 2 when compiling the model. 
+The model was tested and trained using Keras with a Tensorflow backend. I used 10 epochs and a batch size of 2 when compiling the model. The following is the accuracy results of the model trained on the sample dataset: 
 
 <p align="center">
   <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/epochs_10_accuracy.png?raw=true" width="400" height="300"/>
