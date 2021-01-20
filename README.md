@@ -4,7 +4,7 @@ CovidScan is a 3D convolutional neural network that classifies the presence of C
 
 ## How it works
 
-Dataset: I used the MosMedData dataset to obtain lung CT scans that have signs of COVID-19 and those without. The images were classified in the dataset by identifying the percentage of ground glass opacities in the lungs. I used an initial sample of this full dataset to test the accuracy of the model I created. The following are the number of CT scans classified into both categories.
+Dataset: I used the [MosMedData](https://www.medrxiv.org/content/10.1101/2020.05.20.20100362v1) dataset to obtain lung CT scans that have signs of COVID-19 and those without. The images were classified in the dataset by identifying the percentage of ground glass opacities in the lungs. I used an initial sample of this full dataset to test the accuracy of the model I created. The following are the number of CT scans classified into both categories.
 
 <p align="center">
   <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/number_of_scans.png?raw=true" width="300" height="50"/>
@@ -15,7 +15,7 @@ Dataset: I used the MosMedData dataset to obtain lung CT scans that have signs o
 I handled image proccessing and manipulation using the SciPy library which is popular for handling 3D images. The image was resized to the dimensions of 64 by 64 by 32 for proccessing and memory purposes. The sample dataset used 80% for training and 20% for testing. I also used MatPlotLib to visualize a slice of a CT scan with signs of COVID-19. The image can be viewed below.
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/img.png?raw=true" width="200" height="200"/>
+  <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/img.png?raw=true" width="250" height="200"/>
 </p>
 
 ## Results
