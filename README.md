@@ -30,7 +30,7 @@ The results were not quite promising as we'd hoped achieveing an approximate of 
 
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/test_accuracy.png?raw=true" width="300" height="50"/>
+  <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/test_accuracy.png?raw=true" width="300" height="30"/>
 </p>
 
 ## Improvements
