@@ -15,7 +15,7 @@ Dataset: I used the MosMedData dataset to obtain lung CT scans that have signs o
 I handled image proccessing and manipulation using the SciPy library which is popular for handling 3D images. The sample dataset used 80% for training and 20% for testing. I also used MatPlotLib to visualize a slice of a CT scan with signs of COVID-19. The image can be viewed below.
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/img.png?raw=true",width=50,height=50/>
+  <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/img.png?raw=true",width=10,height=10/>
 </p>
 
 ## Results
@@ -30,7 +30,7 @@ The results were not quite promising as we'd hoped achieveing an approximate of 
 
 
 <p align="center">
-  <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/test_accuracy.png?raw=true",width=450,height=200/>
+  <img src="https://github.com/kaiznanji/CovidScan/blob/main/images/test_accuracy.png?raw=true",width=900,height=900/>
 </p>
 
 ## Improvements
