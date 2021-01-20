@@ -21,4 +21,4 @@ The model was tested and trained using Keras with a Tensorflow backend. I used 1
 
 
 ## Improvements
-The 
+For future improvements, I'd like to increase the accuracy score as well as add other related viruses that show presence in lung CT scans. Perhaps our model will be able to differentiate with a high degree of certainty between signs of pnuemonia and COVID-19 in CT scans.
