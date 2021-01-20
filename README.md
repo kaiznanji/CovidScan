@@ -14,4 +14,11 @@ I handled image proccessing and manipulation using the SciPy library which is po
 
 ## Results
 
-The model was tested and trained using Keras with a Tensorflow backend. The results were not quite promising as we'd hoped achieveing an approximate of 73% for classifying between CT scans with or without traces of COVID-19.
+
+
+The model was tested and trained using Keras with a Tensorflow backend. I used 10 epochs and a batch size of 2 when compiling the model. The results were not quite promising as we'd hoped achieveing an approximate of 73% for classifying between CT scans with or without traces of COVID-19. This is largely because of the small sample dataset that was initially taken, as well as the resizing of the images while undergoing image proccessing. This resulted in key information and details left out in the training of the model. However, using the full dataset with 30 epochs and a batch size of 2, we obtained an F1-Score of 81%.
+
+
+
+## Improvements
+The 
